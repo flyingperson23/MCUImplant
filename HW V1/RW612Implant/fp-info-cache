@@ -1,4 +1,4 @@
-26589447252220444
+26592997924597304
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67921,6 +67921,13 @@ MAX9202ESD+
 14
 14
 Library
+616L3I008M00000R
+616_Series
+Crystal or Oscillator
+0
+4
+4
+Library
 3544-Spade
 
 
@@ -68424,6 +68431,13 @@ Neon6mm
 0
 2
 2
+Library
+PG-TLGA-5-8
+
+
+0
+16
+5
 Library
 PH9455.105NL
 
