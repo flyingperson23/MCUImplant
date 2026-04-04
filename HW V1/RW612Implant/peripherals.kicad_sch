@@ -1,0 +1,70 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "59564333-455c-46e0-a493-e69610effcd2")
+	(paper "A4")
+	(lib_symbols)
+	(text "make micro wait 1/10 second to get B-field measurement before running"
+		(exclude_from_sim no)
+		(at 104.14 78.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a784b57-5b00-48e7-9872-cdcc4c9e71db")
+	)
+	(text "NMH1000 magnetic switch - high sample rate"
+		(exclude_from_sim no)
+		(at 103.632 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ddd210c-be38-41da-8501-53cacde8623d")
+	)
+	(text "IM67D128BV01 microphone"
+		(exclude_from_sim no)
+		(at 98.044 65.278 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b86f5bbc-dacd-4126-8e10-1943f44d8c1c")
+	)
+	(text "CLMUD-FKC LED"
+		(exclude_from_sim no)
+		(at 98.806 58.166 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e0b1c330-fa54-4f69-8201-83d6033a610f")
+	)
+	(hierarchical_label "MIC_C"
+		(shape input)
+		(at 96.52 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34c7da37-9530-4407-b9eb-b8a97773296f")
+	)
+	(hierarchical_label "MIC_D"
+		(shape input)
+		(at 96.52 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a773f5e-f4de-4c99-b61b-70055f35bc8b")
+	)
+)
