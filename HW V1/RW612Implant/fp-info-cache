@@ -1,4 +1,4 @@
-26592997924597304
+26594773892228991
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68442,6 +68442,13 @@ Library
 PH9455.105NL
 
 
+0
+4
+4
+Library
+PLCC4_CLMUD-FKC_CRW
+
+CLMUD-FKC-CHJNPM569ABB845343 
 0
 4
 4
