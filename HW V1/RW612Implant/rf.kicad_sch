@@ -916,6 +916,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "rf cntl caps?"
+		(exclude_from_sim no)
+		(at 116.332 61.468 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe42186f-1ab6-4d9d-8629-08e7892e1162")
+	)
 	(junction
 		(at 99.06 99.06)
 		(diameter 0)
@@ -6258,7 +6268,7 @@
 		)
 		(uuid "0023a25d-3b07-4556-99fb-6fca248adb7c")
 	)
-	(hierarchical_label "VCTL1"
+	(hierarchical_label "RF_CNTL_0"
 		(shape input)
 		(at 114.3 64.77 0)
 		(effects
@@ -6269,7 +6279,7 @@
 		)
 		(uuid "22da4f11-149e-4325-80ee-d71fa2dccdd9")
 	)
-	(hierarchical_label "VCTL2"
+	(hierarchical_label "RF_CNTL_1"
 		(shape input)
 		(at 68.58 72.39 180)
 		(effects
