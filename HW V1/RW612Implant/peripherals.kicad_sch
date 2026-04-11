@@ -1679,6 +1679,16 @@
 		)
 		(uuid "c0e0af0c-08d8-4f09-993c-606d49313d4d")
 	)
+	(text "LSM6DSV16B IMU/TEMP"
+		(exclude_from_sim no)
+		(at 135.382 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f4e498fb-c9bd-4e26-9d88-8be59c23b1c2")
+	)
 	(junction
 		(at 67.31 64.77)
 		(diameter 0)

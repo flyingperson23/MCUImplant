@@ -1382,7 +1382,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 88.9) (xy 80.01 88.9)
+			(xy 78.74 88.9) (xy 88.9 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1399,16 +1399,6 @@
 			(type default)
 		)
 		(uuid "f6f3963b-d3ca-45b3-a956-3a269ada668d")
-	)
-	(wire
-		(pts
-			(xy 87.63 88.9) (xy 88.9 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8e1aeac-cf92-4a79-985a-84d491bd4998")
 	)
 	(wire
 		(pts
@@ -6770,74 +6760,6 @@
 			(project "RW612Implant"
 				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/890467fb-de37-4e48-a756-301e5e4c2a61"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 83.82 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39fc7a05-0b70-44e3-8cf9-a907b50fb947")
-		(property "Reference" "C5"
-			(at 83.82 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.6pf"
-			(at 83.82 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 80.01 89.8652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 83.82 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12b137d4-6a91-4db7-ab69-b8e38d2b1d03")
-		)
-		(pin "2"
-			(uuid "3a69fe4c-efb3-41fb-b2c1-2db7b568b1c3")
-		)
-		(instances
-			(project "RW612Implant"
-				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/890467fb-de37-4e48-a756-301e5e4c2a61"
-					(reference "C5")
 					(unit 1)
 				)
 			)
