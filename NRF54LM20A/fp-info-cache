@@ -1,4 +1,4 @@
-26649517073354639
+26653069494962810
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68390,6 +68390,13 @@ LFPAK56 SOT-669 Power-SO8
 18
 3
 Library
+LGA-14L_STM
+
+LSM6DSV16XTR 
+0
+14
+14
+Library
 LQM2MPN4R7NG0L
 Inductor, Murata, DFE201610P, 2.0x1.6x1.0mm, https://www.murata.com/~/media/webrenewal/products/inductor/chip/tokoproducts/wirewoundmetalalloychiptype/m_dfe201610p.ashx
 Inductor power chip flatwire
@@ -68718,6 +68725,13 @@ AOD609
 0
 5
 5
+Library
+TPS6285010MQDRLRQ1
+DRL0008A
+Integrated Circuit
+0
+8
+8
 Library
 USB_B_OST_USB-B1HSxx_Horizontal
 USB B receptacle, Horizontal, through-hole, http://www.on-shore.com/wp-content/uploads/2015/09/usb-b1hsxx.pdf

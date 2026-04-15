@@ -337,167 +337,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
@@ -1707,6 +1546,193 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "dk_Test-Points:RCU-0C"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "RCU-0C"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "digikey-footprints:PROBE_PAD_0603"
+				(at 5.08 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
+				(at 5.08 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "PC TEST POINT NATURAL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digi-Key_PN" "A106145CT-ND"
+				(at 5.08 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RCU-0C"
+				(at 5.08 12.7 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Category" "Test and Measurement"
+				(at 5.08 15.24 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Family" "Test Points"
+				(at 5.08 17.78 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
+				(at 5.08 20.32 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/RCU-0C/A106145CT-ND/3477802"
+				(at 5.08 22.86 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "PC TEST POINT NATURAL"
+				(at 5.08 25.4 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TE Connectivity AMP Connectors"
+				(at 5.08 27.94 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Status" "Active"
+				(at 5.08 30.48 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "A106145CT-ND RC, CGS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RCU-0C_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.5588)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RCU-0C_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.905)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2928,131 +2954,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -3155,16 +3056,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TPS62840 buck"
-		(exclude_from_sim no)
-		(at 208.026 159.512 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "84c8cb0d-3c72-4ecd-90da-92c83f7fbcce")
-	)
 	(junction
 		(at 134.62 85.09)
 		(diameter 0)
@@ -3176,6 +3067,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b830019-c5b4-4882-9f70-5d1b0fc91d92")
+	)
+	(junction
+		(at 240.03 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fecf6e5-6feb-46c5-af66-713fd7ed7dde")
 	)
 	(junction
 		(at 109.22 46.99)
@@ -3250,6 +3147,12 @@
 		(uuid "578831a4-119b-47da-a6d5-0c326b24ed5a")
 	)
 	(junction
+		(at 259.08 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e5946fc-24ee-4307-81ad-df33be7ec200")
+	)
+	(junction
 		(at 63.5 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3268,7 +3171,7 @@
 		(uuid "70d7f1bb-faa4-4888-8d52-2fbbaf3f0cf9")
 	)
 	(junction
-		(at 190.5 113.03)
+		(at 254 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ea58ea3-997e-453c-99ef-d21dca04fd6c")
@@ -3298,6 +3201,12 @@
 		(uuid "8dafe44c-5220-49e7-8f89-c10724b99427")
 	)
 	(junction
+		(at 259.08 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97fe8468-29b9-4bf3-9dfc-562de603b39a")
+	)
+	(junction
 		(at 88.9 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3314,6 +3223,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a03f9498-c75b-4e70-ba3a-1053eacb613c")
+	)
+	(junction
+		(at 252.73 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5af2190-a92e-45f1-a7cd-cba6c01cd966")
+	)
+	(junction
+		(at 248.92 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa4f171f-6150-4f79-b359-ff759d8afca6")
 	)
 	(junction
 		(at 114.3 46.99)
@@ -3358,10 +3279,22 @@
 		(uuid "d0b6b8d9-fa9b-4ef0-9294-67d6b335afbc")
 	)
 	(junction
+		(at 248.92 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e599dbb2-9cdd-4022-89eb-d9d5df126597")
+	)
+	(junction
 		(at 124.46 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5f8a51a-7f21-4290-accb-2d1ef1680624")
+	)
+	(junction
+		(at 267.97 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e98bada9-f35d-45b7-80c4-654b70fb43f0")
 	)
 	(junction
 		(at 138.43 85.09)
@@ -3429,7 +3362,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 102.87) (xy 195.58 104.14)
+			(xy 259.08 177.8) (xy 259.08 179.07)
 		)
 		(stroke
 			(width 0)
@@ -3479,7 +3412,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 102.87) (xy 185.42 104.14)
+			(xy 248.92 177.8) (xy 248.92 179.07)
 		)
 		(stroke
 			(width 0)
@@ -3589,6 +3522,26 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 189.23) (xy 248.92 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "202524ea-b490-4758-b172-ab1da9fde1bd")
+	)
+	(wire
+		(pts
+			(xy 240.03 179.07) (xy 248.92 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e0eb63-11ea-4141-aaf7-357045501e69")
+	)
+	(wire
+		(pts
 			(xy 63.5 45.72) (xy 63.5 46.99)
 		)
 		(stroke
@@ -3599,7 +3552,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 113.03) (xy 195.58 111.76)
+			(xy 259.08 189.23) (xy 259.08 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3619,13 +3572,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 187.96) (xy 219.71 187.96)
+			(xy 259.08 189.23) (xy 267.97 189.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "278aa478-f73a-4975-b56e-73dfa9c9bef1")
+		(uuid "2842272b-73dc-4145-b6fa-16abbce871ca")
 	)
 	(wire
 		(pts
@@ -3659,6 +3612,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 179.07) (xy 240.03 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db7f444-8d98-4f7b-a39d-e1d1c48892d4")
+	)
+	(wire
+		(pts
 			(xy 60.96 182.88) (xy 60.96 184.15)
 		)
 		(stroke
@@ -3666,16 +3629,6 @@
 			(type default)
 		)
 		(uuid "2e5bf24a-a246-4977-b951-a1ddc5ea1752")
-	)
-	(wire
-		(pts
-			(xy 212.09 176.53) (xy 212.09 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "328ba201-1d74-4f2b-9ec7-2acecf09af1b")
 	)
 	(wire
 		(pts
@@ -3869,6 +3822,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 114.3) (xy 252.73 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e34229-a03f-4c60-9bda-4073d2748d01")
+	)
+	(wire
+		(pts
 			(xy 133.35 90.17) (xy 134.62 90.17)
 		)
 		(stroke
@@ -3919,7 +3882,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 111.76) (xy 185.42 113.03)
+			(xy 248.92 187.96) (xy 248.92 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3946,6 +3909,16 @@
 			(type default)
 		)
 		(uuid "5024ca1f-f1bd-40b7-a8c4-a9c0359f4e76")
+	)
+	(wire
+		(pts
+			(xy 264.16 163.83) (xy 265.43 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52321c8f-bb25-47a8-8711-9012e494d5d5")
 	)
 	(wire
 		(pts
@@ -4009,6 +3982,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 121.92) (xy 265.43 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57362d5f-0e1c-43cf-8901-146221b8fe84")
+	)
+	(wire
+		(pts
 			(xy 111.76 167.64) (xy 111.76 166.37)
 		)
 		(stroke
@@ -4069,6 +4052,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 187.96) (xy 240.03 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "601b0691-8442-45b1-b240-461e25a1ff0e")
+	)
+	(wire
+		(pts
 			(xy 133.35 95.25) (xy 134.62 95.25)
 		)
 		(stroke
@@ -4099,6 +4092,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 116.84) (xy 265.43 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "658471e8-afe0-48ba-b5f0-8cc42c47a31b")
+	)
+	(wire
+		(pts
 			(xy 123.19 85.09) (xy 134.62 85.09)
 		)
 		(stroke
@@ -4126,6 +4129,26 @@
 			(type default)
 		)
 		(uuid "6b5c2e8b-10bd-41ae-9aef-fa516dadec03")
+	)
+	(wire
+		(pts
+			(xy 251.46 119.38) (xy 265.43 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b912bd7-2ab4-4bdd-8a90-2d8fc4d12a9e")
+	)
+	(wire
+		(pts
+			(xy 267.97 187.96) (xy 267.97 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff0f549-9680-4cea-b985-4d076953ae02")
 	)
 	(wire
 		(pts
@@ -4169,6 +4192,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 180.34) (xy 267.97 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6a041c-36f7-4f7f-950d-e0c3d8f04716")
+	)
+	(wire
+		(pts
 			(xy 251.46 134.62) (xy 265.43 134.62)
 		)
 		(stroke
@@ -4206,6 +4239,16 @@
 			(type default)
 		)
 		(uuid "80cdd508-2bd4-4d74-b7e0-b3e98d9b8681")
+	)
+	(wire
+		(pts
+			(xy 252.73 111.76) (xy 265.43 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "824acfb1-8bd9-4ee3-b69f-a0836fd8d7f4")
 	)
 	(wire
 		(pts
@@ -4279,13 +4322,33 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 113.03) (xy 190.5 114.3)
+			(xy 254 189.23) (xy 254 190.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8ca884dc-2871-4114-83c1-78b4e18e153d")
+	)
+	(wire
+		(pts
+			(xy 251.46 109.22) (xy 265.43 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e57555a-cb08-4303-86a5-74c8f28de6f1")
+	)
+	(wire
+		(pts
+			(xy 252.73 111.76) (xy 252.73 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f374bcb-759c-4baf-8280-4fd35e697f39")
 	)
 	(wire
 		(pts
@@ -4296,6 +4359,16 @@
 			(type default)
 		)
 		(uuid "936f0286-ef98-4893-8213-5de3c347a51a")
+	)
+	(wire
+		(pts
+			(xy 240.03 180.34) (xy 240.03 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9370b081-334b-496e-b0bb-3ba339b83cb3")
 	)
 	(wire
 		(pts
@@ -4449,6 +4522,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 106.68) (xy 265.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a5ed7e-9f0f-4e65-a742-71b8d91ddb76")
+	)
+	(wire
+		(pts
 			(xy 130.81 46.99) (xy 125.73 46.99)
 		)
 		(stroke
@@ -4499,6 +4582,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 179.07) (xy 259.08 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aadfb8cc-9652-4ce0-9f7f-41dd7c599c2f")
+	)
+	(wire
+		(pts
 			(xy 46.99 36.83) (xy 53.34 36.83)
 		)
 		(stroke
@@ -4529,16 +4622,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 186.69) (xy 212.09 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3a6cd04-8c46-4156-a713-203583fec4d9")
-	)
-	(wire
-		(pts
 			(xy 73.66 46.99) (xy 68.58 46.99)
 		)
 		(stroke
@@ -4556,6 +4639,16 @@
 			(type default)
 		)
 		(uuid "b79501b7-90e0-4b01-8e5e-14266a8b3b70")
+	)
+	(wire
+		(pts
+			(xy 248.92 179.07) (xy 248.92 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b0a20e-31a7-411f-a073-b9ee982564b2")
 	)
 	(wire
 		(pts
@@ -4619,7 +4712,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 113.03) (xy 190.5 113.03)
+			(xy 248.92 189.23) (xy 254 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4749,6 +4842,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 179.07) (xy 267.97 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9b52601-1027-4c28-b1ba-d1e6b1f31473")
+	)
+	(wire
+		(pts
 			(xy 110.49 166.37) (xy 110.49 179.07)
 		)
 		(stroke
@@ -4819,7 +4922,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 113.03) (xy 195.58 113.03)
+			(xy 254 189.23) (xy 259.08 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4836,6 +4939,16 @@
 			(type default)
 		)
 		(uuid "e571f698-a0fe-4492-9b48-c4890acbd175")
+	)
+	(wire
+		(pts
+			(xy 251.46 111.76) (xy 252.73 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7a4c0d9-062e-4deb-b7c6-5ca0534d0b17")
 	)
 	(wire
 		(pts
@@ -4909,6 +5022,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 161.29) (xy 265.43 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f743fbf0-8909-4b98-b8ab-fa8bf421e58d")
+	)
+	(wire
+		(pts
 			(xy 99.06 38.1) (xy 99.06 36.83)
 		)
 		(stroke
@@ -4916,6 +5039,26 @@
 			(type default)
 		)
 		(uuid "f8139f45-269c-4d21-b2a9-09729082439c")
+	)
+	(wire
+		(pts
+			(xy 267.97 179.07) (xy 269.24 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8346a70-5b4b-4ba3-b931-7a5fdfc5a04a")
+	)
+	(wire
+		(pts
+			(xy 251.46 73.66) (xy 265.43 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe4dd793-1be2-42a0-8a85-8dd9a197c7ee")
 	)
 	(wire
 		(pts
@@ -5053,7 +5196,7 @@
 	)
 	(global_label "NFC2"
 		(shape input)
-		(at 195.58 102.87 90)
+		(at 259.08 177.8 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5063,7 +5206,7 @@
 		)
 		(uuid "480d955f-7e7e-4122-b337-c5999a21a2a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 94.9862 90)
+			(at 259.08 169.9162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5240,7 @@
 	)
 	(global_label "NFC1"
 		(shape input)
-		(at 185.42 102.87 90)
+		(at 248.92 177.8 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5107,7 +5250,7 @@
 		)
 		(uuid "f21c9c40-63cd-42a8-adbb-8da1ef79c4d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.42 94.9862 90)
+			(at 248.92 169.9162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5654,37 +5797,55 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 212.09 182.88 0)
+		(lib_id "dk_Test-Points:RCU-0C")
+		(at 271.78 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1fb18fe0-97d4-4bce-b275-cf11a8b58b4c")
-		(property "Reference" "C19"
-			(at 215.9 180.7209 0)
+		(uuid "2305d456-aa94-43ff-8430-5afd5367be9c")
+		(property "Reference" "TP4"
+			(at 273.05 177.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RCU-0C"
+			(at 273.05 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "digikey-footprints:PROBE_PAD_0603"
+			(at 266.7 173.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "6TPS150MUD"
-			(at 215.9 183.2609 0)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
+			(at 264.16 173.99 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B"
-			(at 213.0552 186.69 0)
+		(property "Description" "PC TEST POINT NATURAL"
+			(at 271.78 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,34 +5853,103 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 212.09 182.88 0)
+		(property "Digi-Key_PN" "A106145CT-ND"
+			(at 261.62 173.99 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 212.09 182.88 0)
+		(property "MPN" "RCU-0C"
+			(at 259.08 173.99 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Test and Measurement"
+			(at 256.54 173.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Test Points"
+			(at 254 173.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
+			(at 251.46 173.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/RCU-0C/A106145CT-ND/3477802"
+			(at 248.92 173.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "PC TEST POINT NATURAL"
+			(at 246.38 173.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity AMP Connectors"
+			(at 243.84 173.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 241.3 173.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "89689eb9-7446-49cc-97a5-7a1dee955e20")
-		)
-		(pin "2"
-			(uuid "cfcdc657-f482-4b54-a008-881fdc17c6f6")
+			(uuid "1b2b97e5-7b16-4f6e-8173-055ac74bc96e")
 		)
 		(instances
-			(project "RW612Implant"
+			(project "NRF54LM20A"
 				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e"
-					(reference "C19")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -5860,6 +6090,163 @@
 			(project "NRF54LM20A"
 				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dk_Test-Points:RCU-0C")
+		(at 261.62 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33177a59-b4dc-4467-88e8-b7b037b5c68c")
+		(property "Reference" "TP1"
+			(at 261.6581 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RCU-0C"
+			(at 261.6581 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:PROBE_PAD_0603"
+			(at 266.7 168.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
+			(at 269.24 168.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PC TEST POINT NATURAL"
+			(at 261.62 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "A106145CT-ND"
+			(at 271.78 168.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCU-0C"
+			(at 274.32 168.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Test and Measurement"
+			(at 276.86 168.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Test Points"
+			(at 279.4 168.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
+			(at 281.94 168.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/RCU-0C/A106145CT-ND/3477802"
+			(at 284.48 168.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "PC TEST POINT NATURAL"
+			(at 287.02 168.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity AMP Connectors"
+			(at 289.56 168.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 292.1 168.91 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00cb8e9c-c884-4fca-9bbd-0fab5cb9a0a8")
+		)
+		(instances
+			(project ""
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -6666,6 +7053,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 267.97 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "390fbdeb-d3af-44b0-bf0d-0253e20efc87")
+		(property "Reference" "C42"
+			(at 272.796 183.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBD"
+			(at 272.796 185.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 267.0048 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 267.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2d160e3-7350-4af9-9624-7907eecf3573")
+		)
+		(pin "1"
+			(uuid "d92e8340-5942-40ab-902c-4e284fa32863")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 113.03 97.79 90)
 		(unit 1)
@@ -6935,7 +7389,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 114.3 0)
+		(at 254 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6944,7 +7398,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c6d3a30-d9b8-48d4-9449-7d76049398ca")
 		(property "Reference" "#PWR012"
-			(at 190.5 120.65 0)
+			(at 254 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6953,7 +7407,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 119.38 0)
+			(at 254 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6961,7 +7415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 114.3 0)
+			(at 254 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6970,7 +7424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 114.3 0)
+			(at 254 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6979,7 +7433,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 114.3 0)
+			(at 254 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7635,7 +8089,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 185.42 107.95 180)
+		(at 248.92 184.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7643,7 +8097,7 @@
 		(dnp no)
 		(uuid "87e72077-34f7-4b3e-91f7-e23682436d49")
 		(property "Reference" "C13"
-			(at 190.246 106.934 0)
+			(at 253.746 183.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7651,7 +8105,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 190.246 109.474 0)
+			(at 253.746 185.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7659,7 +8113,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 184.4548 104.14 0)
+			(at 247.9548 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7668,7 +8122,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 107.95 0)
+			(at 248.92 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7677,7 +8131,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 185.42 107.95 0)
+			(at 248.92 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7770,7 +8224,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 195.58 107.95 180)
+		(at 259.08 184.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7778,7 +8232,7 @@
 		(dnp no)
 		(uuid "8cbf839a-f0e9-4b47-a5fe-18cbbcc16c02")
 		(property "Reference" "C14"
-			(at 200.406 106.934 0)
+			(at 263.906 183.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7786,7 +8240,7 @@
 			)
 		)
 		(property "Value" "TBD"
-			(at 200.406 109.474 0)
+			(at 263.906 185.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7794,7 +8248,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 194.6148 104.14 0)
+			(at 258.1148 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7803,7 +8257,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 107.95 0)
+			(at 259.08 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7812,7 +8266,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 195.58 107.95 0)
+			(at 259.08 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7830,6 +8284,163 @@
 			(project "NRF54LM20A"
 				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dk_Test-Points:RCU-0C")
+		(at 236.22 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95628022-c94e-4b76-99b3-d1a756901939")
+		(property "Reference" "TP3"
+			(at 236.2581 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RCU-0C"
+			(at 236.2581 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:PROBE_PAD_0603"
+			(at 241.3 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
+			(at 243.84 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PC TEST POINT NATURAL"
+			(at 236.22 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "A106145CT-ND"
+			(at 246.38 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCU-0C"
+			(at 248.92 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Test and Measurement"
+			(at 251.46 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Test Points"
+			(at 254 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
+			(at 256.54 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/RCU-0C/A106145CT-ND/3477802"
+			(at 259.08 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "PC TEST POINT NATURAL"
+			(at 261.62 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity AMP Connectors"
+			(at 264.16 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 266.7 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "054f8cd9-65af-4e81-aafd-acaeabe1b04f")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -8531,72 +9142,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 212.09 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8d8c2fc-500d-4224-a33f-2a6c7a992ec5")
-		(property "Reference" "#PWR072"
-			(at 212.09 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 212.09 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 212.09 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f68dc9f9-7e65-40b5-9059-a922b4a31efd")
-		)
-		(instances
-			(project ""
-				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 119.38 85.09 90)
 		(unit 1)
@@ -8941,6 +9486,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 240.03 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cad0afaf-1a08-475a-bf55-d224268dfcdc")
+		(property "Reference" "C43"
+			(at 244.856 183.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TBD"
+			(at 244.856 185.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 239.0648 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 240.03 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 240.03 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e0205051-2c5c-4e6d-b0f9-473fa5466ae2")
+		)
+		(pin "1"
+			(uuid "62dd0a7b-e643-458e-b4b5-cc350be32e05")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 60.96 162.56 0)
 		(unit 1)
@@ -9001,6 +9613,163 @@
 			(project "NRF54LM20A"
 				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dk_Test-Points:RCU-0C")
+		(at 261.62 161.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daf35982-5b35-4c92-bfd6-62140fef9ce2")
+		(property "Reference" "TP2"
+			(at 261.6581 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RCU-0C"
+			(at 261.6581 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "digikey-footprints:PROBE_PAD_0603"
+			(at 266.7 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
+			(at 269.24 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PC TEST POINT NATURAL"
+			(at 261.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "A106145CT-ND"
+			(at 271.78 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCU-0C"
+			(at 274.32 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Category" "Test and Measurement"
+			(at 276.86 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Family" "Test Points"
+			(at 279.4 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
+			(at 281.94 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/RCU-0C/A106145CT-ND/3477802"
+			(at 284.48 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "PC TEST POINT NATURAL"
+			(at 287.02 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity AMP Connectors"
+			(at 289.56 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Status" "Active"
+			(at 292.1 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb657563-9f33-4139-9317-642260506b3d")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -9464,26 +10233,6 @@
 				(justify left)
 			)
 		)
-		(pin "I2C_SCL" input
-			(at 265.43 106.68 180)
-			(uuid "28b85fda-ab3d-41a6-973a-8804bde2fb68")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "I2C_SDA" input
-			(at 265.43 102.87 180)
-			(uuid "98e23466-560f-4fd3-8c74-5ea680ea011d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "LED_C" input
 			(at 265.43 134.62 180)
 			(uuid "a6d05cf7-d183-4a7f-bbdf-82737ff99b3c")
@@ -9497,6 +10246,138 @@
 		(pin "LED_D" input
 			(at 265.43 132.08 180)
 			(uuid "5c9e9ace-9c13-4a3d-bf9e-e963c2ca2779")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V_SENSE" input
+			(at 265.43 111.76 180)
+			(uuid "0c628862-051d-4494-b0bb-494a658148a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_SCK" input
+			(at 265.43 116.84 180)
+			(uuid "30db22dc-8563-4770-a770-1827e14ca1fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_SDO" input
+			(at 265.43 73.66 180)
+			(uuid "eb68b490-2012-4a9b-bc78-37cd2e4f268e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_INT0" input
+			(at 265.43 109.22 180)
+			(uuid "44e1cc8a-61ca-4e96-90b3-8a995b4d1af7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_CS" input
+			(at 265.43 106.68 180)
+			(uuid "ecf793ca-d43e-4fe1-8a9c-97a0fba18dbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_INT1" input
+			(at 265.43 119.38 180)
+			(uuid "c6aa8994-926e-4be1-9a39-e14aae97c2e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IMU_SDI" input
+			(at 265.43 121.92 180)
+			(uuid "4598219d-e14f-4b1b-a7c9-726a2dca9a9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 265.43 157.48)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e72e81ce-83c7-4939-9825-4a57210c70ec")
+		(property "Sheetname" "Power"
+			(at 265.43 156.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 265.43 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "QI_B" input
+			(at 265.43 161.29 180)
+			(uuid "22a64944-ebf0-462f-b72b-0482a03d3c73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "QI_A" input
+			(at 265.43 163.83 180)
+			(uuid "a958f79d-7097-4edf-ba2b-4e26d28a04da")
 			(effects
 				(font
 					(size 1.27 1.27)
