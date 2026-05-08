@@ -2662,12 +2662,20 @@
 		(uuid "f7b85a95-c473-4e7d-85b0-bb73344c31ba")
 	)
 	(no_connect
+		(at 144.78 119.38)
+		(uuid "0fc06e3a-f880-4a9b-af20-e4137789d879")
+	)
+	(no_connect
 		(at 210.82 119.38)
 		(uuid "15cf5a9c-f438-47ac-9b4a-ec228e29df0a")
 	)
 	(no_connect
 		(at 123.19 104.14)
 		(uuid "66c940af-e91e-42ff-b49e-a270257d2880")
+	)
+	(no_connect
+		(at 210.82 121.92)
+		(uuid "7f8286de-05da-4d45-94e5-1cb9f1fbc829")
 	)
 	(no_connect
 		(at 123.19 93.98)
@@ -2822,16 +2830,6 @@
 			(type default)
 		)
 		(uuid "3773ef36-bcca-44e9-819f-7059bc9e01cd")
-	)
-	(wire
-		(pts
-			(xy 210.82 121.92) (xy 212.09 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "384f13d1-a048-4e3b-9e41-d42d825ae873")
 	)
 	(wire
 		(pts
@@ -3052,16 +3050,6 @@
 			(type default)
 		)
 		(uuid "8d525fbe-09f0-4d11-b17f-a12fab213bdd")
-	)
-	(wire
-		(pts
-			(xy 142.24 119.38) (xy 144.78 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90400f07-646e-4d42-a0a4-29026cd5e1a4")
 	)
 	(wire
 		(pts
@@ -3419,17 +3407,6 @@
 		)
 		(uuid "9a773f5e-f4de-4c99-b61b-70055f35bc8b")
 	)
-	(hierarchical_label "IMU_INT1"
-		(shape input)
-		(at 142.24 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dd8c8abe-40f4-4aa6-92d7-d1051ac6d5bf")
-	)
 	(hierarchical_label "LED_D"
 		(shape input)
 		(at 54.61 96.52 180)
@@ -3473,17 +3450,6 @@
 			(justify left)
 		)
 		(uuid "f4ca8306-8f86-441b-a08e-57c78d705c4a")
-	)
-	(hierarchical_label "IMU_INT0"
-		(shape input)
-		(at 212.09 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f5259b82-0ba4-4d7a-85df-2c0e73d9979b")
 	)
 	(symbol
 		(lib_id "power:+1V8")
