@@ -2608,6 +2608,12 @@
 		(uuid "62f57a73-2def-40bd-ad32-b8aa786f2445")
 	)
 	(junction
+		(at 143.51 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bde4425-0ca1-4839-b48a-59e73ed2c44b")
+	)
+	(junction
 		(at 83.82 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2710,6 +2716,16 @@
 			(type default)
 		)
 		(uuid "0c6cab2e-79d7-4178-9b4f-1cbb1837b67c")
+	)
+	(wire
+		(pts
+			(xy 134.62 116.84) (xy 143.51 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1351fa21-78c3-48f5-908c-ba4ffe7b8dc8")
 	)
 	(wire
 		(pts
@@ -3113,6 +3129,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 125.73) (xy 134.62 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a594949d-a310-4a53-afaf-8d5a28f90dcb")
+	)
+	(wire
+		(pts
 			(xy 102.87 55.88) (xy 104.14 55.88)
 		)
 		(stroke
@@ -3120,6 +3146,16 @@
 			(type default)
 		)
 		(uuid "a59607cf-b81b-4fa2-a3b1-5c4cf95925d4")
+	)
+	(wire
+		(pts
+			(xy 134.62 118.11) (xy 134.62 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a640f220-2185-4748-a7d7-34cad6a82566")
 	)
 	(wire
 		(pts
@@ -3170,6 +3206,16 @@
 			(type default)
 		)
 		(uuid "b821f642-1885-4ff5-b469-808ae5f388e1")
+	)
+	(wire
+		(pts
+			(xy 134.62 127) (xy 143.51 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c2902d-5bfa-40e4-909e-4d6f08efbfa7")
 	)
 	(wire
 		(pts
@@ -5064,6 +5110,76 @@
 			(project "NRF54LM20A"
 				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 134.62 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b540dc67-3df2-49b2-9b34-ad6e451cd3d8")
+		(property "Reference" "C48"
+			(at 138.43 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 138.43 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 135.5852 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "abc3ebe7-2d3c-490f-9dfb-597c47b7c347")
+		)
+		(pin "1"
+			(uuid "322a56b9-9500-4c91-a22f-6a01507c153c")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
+					(reference "C48")
 					(unit 1)
 				)
 			)
