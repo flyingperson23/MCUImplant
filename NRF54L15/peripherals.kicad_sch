@@ -2575,19 +2575,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "spi mode 1?"
-		(exclude_from_sim no)
-		(at 111.506 82.296 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4bae9102-ac21-46d2-bf87-992c270e08c9")
-	)
 	(text "make micro wait 1/10 second to get B-field measurement before running"
 		(exclude_from_sim no)
-		(at 108.458 149.098 0)
+		(at 128.778 182.118 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2602,7 +2592,7 @@
 		(uuid "5fe80ee0-53d3-4aa9-b0ec-699f9716df6f")
 	)
 	(junction
-		(at 102.87 55.88)
+		(at 26.67 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62f57a73-2def-40bd-ad32-b8aa786f2445")
@@ -2614,25 +2604,25 @@
 		(uuid "6bde4425-0ca1-4839-b48a-59e73ed2c44b")
 	)
 	(junction
-		(at 83.82 133.35)
+		(at 104.14 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77850cc4-e8fc-49c7-96d6-8e4c985042d8")
 	)
 	(junction
-		(at 135.89 53.34)
+		(at 59.69 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "820c0fc6-bc29-4abb-80ed-c11d09e4e6f0")
 	)
 	(junction
-		(at 63.5 85.09)
+		(at 64.77 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8effd0d2-d397-4566-aeaf-44f139e9591b")
 	)
 	(junction
-		(at 68.58 85.09)
+		(at 69.85 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abf5c073-92df-4ba5-9f83-7d1d20738953")
@@ -2650,13 +2640,13 @@
 		(uuid "b8d0dd79-0018-44c3-996f-8b1c4ef8cbaa")
 	)
 	(junction
-		(at 135.89 43.18)
+		(at 59.69 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9ece06f-70e2-4ff7-b2cb-f9075ca2e36b")
 	)
 	(junction
-		(at 123.19 135.89)
+		(at 143.51 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f65b3128-12b9-4c0c-83a8-7eb68f9c9f8e")
@@ -2676,16 +2666,16 @@
 		(uuid "15cf5a9c-f438-47ac-9b4a-ec228e29df0a")
 	)
 	(no_connect
-		(at 123.19 104.14)
-		(uuid "66c940af-e91e-42ff-b49e-a270257d2880")
-	)
-	(no_connect
 		(at 210.82 121.92)
 		(uuid "7f8286de-05da-4d45-94e5-1cb9f1fbc829")
 	)
 	(no_connect
-		(at 123.19 93.98)
-		(uuid "a651054a-f223-443f-b1d0-6e7f11537116")
+		(at 273.05 49.53)
+		(uuid "ad59bd0b-a6b0-4364-ba67-e90cff58969a")
+	)
+	(no_connect
+		(at 273.05 59.69)
+		(uuid "b059fb19-9317-433f-bca9-b5125724781f")
 	)
 	(wire
 		(pts
@@ -2699,6 +2689,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 69.85) (xy 255.27 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05203bbe-d3b5-4835-9405-c1f68a2be5a6")
+	)
+	(wire
+		(pts
 			(xy 210.82 127) (xy 212.09 127)
 		)
 		(stroke
@@ -2709,7 +2709,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 133.35) (xy 123.19 135.89)
+			(xy 143.51 166.37) (xy 143.51 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2729,7 +2729,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 85.09) (xy 63.5 85.09)
+			(xy 55.88 40.64) (xy 64.77 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2739,7 +2739,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 133.35) (xy 123.19 133.35)
+			(xy 140.97 166.37) (xy 143.51 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2749,13 +2749,33 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 53.34) (xy 102.87 53.34)
+			(xy 209.55 33.02) (xy 209.55 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15bb5005-4e71-40cf-a6d8-71df1eab1387")
+	)
+	(wire
+		(pts
+			(xy 25.4 179.07) (xy 26.67 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "18b49757-3872-4cfa-a48a-f43ebc6f0416")
+	)
+	(wire
+		(pts
+			(xy 106.68 69.85) (xy 106.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0f00d2-e5f1-4e7f-a9b1-025fa803589b")
 	)
 	(wire
 		(pts
@@ -2769,7 +2789,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 50.8) (xy 102.87 50.8)
+			(xy 25.4 176.53) (xy 26.67 176.53)
 		)
 		(stroke
 			(width 0)
@@ -2779,7 +2799,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 41.91) (xy 135.89 43.18)
+			(xy 198.12 49.53) (xy 199.39 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb1fe8c-2fd0-42e6-a465-733f452b8857")
+	)
+	(wire
+		(pts
+			(xy 59.69 167.64) (xy 59.69 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2789,7 +2819,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 58.42) (xy 102.87 58.42)
+			(xy 25.4 184.15) (xy 26.67 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2799,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 101.6) (xy 55.88 101.6)
+			(xy 55.88 57.15) (xy 57.15 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2809,7 +2839,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 43.18) (xy 135.89 43.18)
+			(xy 68.58 168.91) (xy 59.69 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2829,7 +2859,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 53.34) (xy 135.89 52.07)
+			(xy 59.69 179.07) (xy 59.69 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2859,7 +2889,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 52.07) (xy 144.78 53.34)
+			(xy 68.58 177.8) (xy 68.58 179.07)
 		)
 		(stroke
 			(width 0)
@@ -2879,6 +2909,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 59.69) (xy 234.95 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52116050-97eb-4507-b5d8-c644e01d43cd")
+	)
+	(wire
+		(pts
 			(xy 144.78 121.92) (xy 143.51 121.92)
 		)
 		(stroke
@@ -2889,7 +2929,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 96.52) (xy 81.28 96.52)
+			(xy 77.47 52.07) (xy 82.55 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2899,7 +2939,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 101.6) (xy 81.28 101.6)
+			(xy 77.47 57.15) (xy 82.55 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2909,7 +2949,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 91.44) (xy 54.61 85.09)
+			(xy 55.88 46.99) (xy 55.88 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2919,7 +2959,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 135.89) (xy 87.63 135.89)
+			(xy 105.41 168.91) (xy 107.95 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2929,7 +2969,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 138.43) (xy 127 138.43)
+			(xy 140.97 171.45) (xy 147.32 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2939,7 +2979,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 83.82) (xy 63.5 85.09)
+			(xy 64.77 39.37) (xy 64.77 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2949,7 +2989,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 104.14) (xy 87.63 104.14)
+			(xy 82.55 59.69) (xy 88.9 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2959,7 +2999,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 96.52) (xy 55.88 96.52)
+			(xy 237.49 49.53) (xy 234.95 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "628e0ac1-e1f0-4a3e-af4b-8ae623d060c5")
+	)
+	(wire
+		(pts
+			(xy 55.88 52.07) (xy 57.15 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2969,17 +3019,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 114.3) (xy 105.41 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "775e69b4-8eeb-4f52-990a-17de38f694be")
-	)
-	(wire
-		(pts
-			(xy 83.82 138.43) (xy 83.82 133.35)
+			(xy 104.14 171.45) (xy 104.14 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2989,7 +3029,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 55.88) (xy 102.87 55.88)
+			(xy 25.4 181.61) (xy 26.67 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2999,13 +3039,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 44.45) (xy 144.78 43.18)
+			(xy 68.58 170.18) (xy 68.58 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "80d4d67f-df8e-4cba-88a6-d384f671d145")
+	)
+	(wire
+		(pts
+			(xy 161.29 59.69) (xy 162.56 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80da79c7-62fb-4add-8413-d4f14b00f907")
 	)
 	(wire
 		(pts
@@ -3019,7 +3069,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 133.35) (xy 87.63 133.35)
+			(xy 104.14 166.37) (xy 107.95 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3029,7 +3079,17 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 135.89) (xy 123.19 139.7)
+			(xy 198.12 59.69) (xy 199.39 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84d711d9-6b74-4665-afe2-fc0d69664ac9")
+	)
+	(wire
+		(pts
+			(xy 143.51 168.91) (xy 143.51 172.72)
 		)
 		(stroke
 			(width 0)
@@ -3049,7 +3109,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 53.34) (xy 135.89 53.34)
+			(xy 68.58 179.07) (xy 59.69 179.07)
 		)
 		(stroke
 			(width 0)
@@ -3059,7 +3119,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 101.6) (xy 81.28 104.14)
+			(xy 135.89 33.02) (xy 135.89 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d064878-7162-46e0-9d99-1ee882fb691f")
+	)
+	(wire
+		(pts
+			(xy 82.55 57.15) (xy 82.55 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3089,7 +3159,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 43.18) (xy 135.89 43.18)
+			(xy 58.42 168.91) (xy 59.69 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3099,7 +3169,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 132.08) (xy 83.82 133.35)
+			(xy 104.14 165.1) (xy 104.14 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3109,7 +3179,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 60.96) (xy 101.6 60.96)
+			(xy 26.67 186.69) (xy 25.4 186.69)
 		)
 		(stroke
 			(width 0)
@@ -3119,7 +3189,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 93.98) (xy 87.63 93.98)
+			(xy 82.55 49.53) (xy 88.9 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3139,7 +3209,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 55.88) (xy 104.14 55.88)
+			(xy 26.67 181.61) (xy 27.94 181.61)
 		)
 		(stroke
 			(width 0)
@@ -3159,7 +3229,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 135.89) (xy 123.19 135.89)
+			(xy 140.97 168.91) (xy 143.51 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3169,7 +3239,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 33.02) (xy 135.89 34.29)
+			(xy 59.69 158.75) (xy 59.69 160.02)
 		)
 		(stroke
 			(width 0)
@@ -3189,7 +3259,27 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 85.09) (xy 69.85 85.09)
+			(xy 180.34 69.85) (xy 180.34 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b28ab9f1-749f-415e-b32f-81612b7ec763")
+	)
+	(wire
+		(pts
+			(xy 247.65 33.02) (xy 247.65 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40eac72-ab5b-485c-8635-32f083622173")
+	)
+	(wire
+		(pts
+			(xy 69.85 40.64) (xy 71.12 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3199,7 +3289,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 96.52) (xy 81.28 93.98)
+			(xy 82.55 52.07) (xy 82.55 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3219,7 +3309,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 85.09) (xy 68.58 86.36)
+			(xy 69.85 40.64) (xy 69.85 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3249,7 +3339,17 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 53.34) (xy 102.87 55.88)
+			(xy 124.46 49.53) (xy 125.73 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85981e5-0070-47ca-ba3e-d2a1649c4d10")
+	)
+	(wire
+		(pts
+			(xy 26.67 179.07) (xy 26.67 181.61)
 		)
 		(stroke
 			(width 0)
@@ -3259,7 +3359,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 91.44) (xy 54.61 91.44)
+			(xy 57.15 46.99) (xy 55.88 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3269,7 +3369,27 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 83.82) (xy 68.58 85.09)
+			(xy 172.72 33.02) (xy 172.72 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe09c15-e6f4-49b7-aa7d-7cf05f89fab3")
+	)
+	(wire
+		(pts
+			(xy 217.17 69.85) (xy 217.17 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c7e03f-d0ff-4b94-be02-66094c02603b")
+	)
+	(wire
+		(pts
+			(xy 69.85 39.37) (xy 69.85 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3279,17 +3399,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 77.47) (xy 97.79 78.74)
+			(xy 161.29 49.53) (xy 162.56 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db1f58f2-42d0-43f5-a067-b05718043d72")
+		(uuid "ddc334bc-ac2e-430c-9602-0a4ac4c5ae1b")
 	)
 	(wire
 		(pts
-			(xy 63.5 85.09) (xy 63.5 86.36)
+			(xy 64.77 40.64) (xy 64.77 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3299,13 +3419,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 138.43) (xy 83.82 138.43)
+			(xy 107.95 171.45) (xy 104.14 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e1be8019-6b7b-4b51-bffe-48440890fd37")
+	)
+	(wire
+		(pts
+			(xy 99.06 33.02) (xy 99.06 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e410bafe-c9ef-41b5-9fd1-ad121c317dde")
 	)
 	(wire
 		(pts
@@ -3319,7 +3449,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 43.18) (xy 135.89 44.45)
+			(xy 59.69 168.91) (xy 59.69 170.18)
 		)
 		(stroke
 			(width 0)
@@ -3339,7 +3469,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 111.76) (xy 66.04 113.03)
+			(xy 67.31 67.31) (xy 67.31 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3349,7 +3479,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 54.61) (xy 135.89 53.34)
+			(xy 59.69 180.34) (xy 59.69 179.07)
 		)
 		(stroke
 			(width 0)
@@ -3359,7 +3489,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 139.7) (xy 85.09 135.89)
+			(xy 105.41 172.72) (xy 105.41 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3379,7 +3509,27 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 85.09) (xy 78.74 85.09)
+			(xy 143.51 69.85) (xy 143.51 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4aa6c2-58b4-43de-8888-68c289cf9ed0")
+	)
+	(wire
+		(pts
+			(xy 124.46 59.69) (xy 125.73 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa65ba78-b268-44fe-83ec-5d5f4699abbb")
+	)
+	(wire
+		(pts
+			(xy 78.74 40.64) (xy 80.01 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3389,7 +3539,7 @@
 	)
 	(hierarchical_label "MIC_C"
 		(shape input)
-		(at 102.87 58.42 0)
+		(at 26.67 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3400,7 +3550,7 @@
 	)
 	(hierarchical_label "LED_C"
 		(shape input)
-		(at 54.61 101.6 180)
+		(at 55.88 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3411,7 +3561,7 @@
 	)
 	(hierarchical_label "B_SWITCH"
 		(shape input)
-		(at 127 138.43 0)
+		(at 147.32 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3422,7 +3572,7 @@
 	)
 	(hierarchical_label "5V_SENSE"
 		(shape input)
-		(at 134.62 43.18 180)
+		(at 58.42 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3444,7 +3594,7 @@
 	)
 	(hierarchical_label "MIC_D"
 		(shape input)
-		(at 102.87 50.8 0)
+		(at 26.67 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3455,7 +3605,7 @@
 	)
 	(hierarchical_label "LED_D"
 		(shape input)
-		(at 54.61 96.52 180)
+		(at 55.88 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3499,7 +3649,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 63.5 83.82 0)
+		(at 64.77 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3508,7 +3658,7 @@
 		(fields_autoplaced yes)
 		(uuid "01d5510c-55d1-44bf-a361-3da96632b827")
 		(property "Reference" "#PWR019"
-			(at 63.5 87.63 0)
+			(at 64.77 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +3667,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 63.5 78.74 0)
+			(at 64.77 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +3675,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 83.82 0)
+			(at 64.77 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,7 +3684,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 83.82 0)
+			(at 64.77 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,7 +3693,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 63.5 83.82 0)
+			(at 64.77 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,6 +3708,72 @@
 			(project ""
 				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 247.65 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10da4b38-e158-4953-8f54-d323eaeb941f")
+		(property "Reference" "#PWR053"
+			(at 247.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 247.65 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 247.65 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b74d2c7-fef8-4aea-813c-14b677edb930")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3670,447 +3886,8 @@
 		)
 	)
 	(symbol
-		(lib_id "New_Library:1311610030140")
-		(at 87.63 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f980c8c-f0d0-416c-8894-5a42395269aa")
-		(property "Reference" "D1"
-			(at 99.4411 77.47 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1311610030140"
-			(at 87.63 109.22 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Library:1311610030140"
-			(at 87.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "WL-ICLED Integrated Controller within LED, SMT, Chip LED 1616 Dual, 6mA"
-			(at 87.63 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "1311610030140"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Category" "IC LEDs"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Match Code" "WL-ICLED"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ComponentLink1Description" "Website Link"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ComponentLink1URL" "https://www.we-online.com/redexpert/article/1311610030140?ad"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ComponentLink2Description" "Datasheet Link"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ComponentLink2URL" "https://www.we-online.com/redexpert/spec/1311610030140?ad"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mount" "Surface Mount"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Min Operating Temperature" "-40°C"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Max Operating Temperature" "85°C"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Packaging" "Tape and Reel"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Case/Size Code" "Chip LED 1616 Dual"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Length" "1.6mm"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Width" "1.6mm"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9mm"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dominant Wavelength (Blue)" "470nm"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dominant Wavelength (Green)" "525nm"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Dominant Wavelength (Red)" "625nm"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Emitting Color" "Green & Blue & Red"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Frequency of the PWM" "20kHz"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "IC Output Current" "6mA"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Luminous Intensity (Blue)" "50mcd"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Luminous Intensity (Green)" "120mcd"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Luminous Intensity (Red)" "80mcd"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Peak Wavelength (Blue)" "465nm"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Peak Wavelength (Green)" "520nm"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Peak Wavelength (Red)" "630nm"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Viewing Angle" "120°"
-			(at 87.122 78.232 0)
-			(effects
-				(font
-					(size 1.8288 1.8288)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5fc4718-6e65-49c9-a5ae-cec9fb578a76")
-		)
-		(pin "3"
-			(uuid "4a4d80da-521c-47c0-83f6-271dffeb12f4")
-		)
-		(pin "5"
-			(uuid "9dc5c6d2-31ad-484c-81da-810d7b880b18")
-		)
-		(pin "4"
-			(uuid "8f95bcc2-8150-4c2c-ab18-b4639273337d")
-		)
-		(pin "2"
-			(uuid "edfed5f8-43c3-4706-a776-449717ce8c99")
-		)
-		(pin "6"
-			(uuid "42afe683-fe60-410b-a4c5-375325bf9925")
-		)
-		(instances
-			(project ""
-				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 97.79 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21db0d86-c016-428d-8bb7-8fd3814e0eb8")
-		(property "Reference" "#PWR016"
-			(at 97.79 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 97.79 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 97.79 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "840e0af3-aa14-4724-b7b3-249eead5b489")
-		)
-		(instances
-			(project ""
-				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 135.89 54.61 0)
+		(at 59.69 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4119,7 +3896,7 @@
 		(fields_autoplaced yes)
 		(uuid "279f2623-716f-4702-b1b6-54b67a1cd568")
 		(property "Reference" "#PWR031"
-			(at 135.89 60.96 0)
+			(at 59.69 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4128,7 +3905,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 59.69 0)
+			(at 59.69 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4136,7 +3913,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 54.61 0)
+			(at 59.69 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +3922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 54.61 0)
+			(at 59.69 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +3931,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 54.61 0)
+			(at 59.69 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +3953,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 68.58 83.82 0)
+		(at 69.85 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4185,7 +3962,7 @@
 		(fields_autoplaced yes)
 		(uuid "36ce0668-079c-4ca9-9285-b4352c5c0b3f")
 		(property "Reference" "#PWR020"
-			(at 68.58 87.63 0)
+			(at 69.85 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +3971,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 68.58 78.74 0)
+			(at 69.85 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,7 +3979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 83.82 0)
+			(at 69.85 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,7 +3988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 83.82 0)
+			(at 69.85 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4220,7 +3997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 68.58 83.82 0)
+			(at 69.85 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4242,7 +4019,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 139.7 0)
+		(at 143.51 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4251,7 +4028,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b96bbd9-c03f-4a2e-95c8-936545401476")
 		(property "Reference" "#PWR039"
-			(at 123.19 146.05 0)
+			(at 143.51 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,7 +4037,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 144.78 0)
+			(at 143.51 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,7 +4045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 139.7 0)
+			(at 143.51 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4277,7 +4054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 139.7 0)
+			(at 143.51 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4286,7 +4063,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 139.7 0)
+			(at 143.51 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4085,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 144.78 48.26 0)
+		(at 68.58 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4317,7 +4094,7 @@
 		(fields_autoplaced yes)
 		(uuid "43115c53-5e8d-4a9f-9e26-b162fee22cd8")
 		(property "Reference" "C40"
-			(at 148.59 46.9899 0)
+			(at 72.39 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4326,7 +4103,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 148.59 49.5299 0)
+			(at 72.39 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +4112,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 145.7452 52.07 0)
+			(at 69.5452 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,7 +4121,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 48.26 0)
+			(at 68.58 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +4130,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 144.78 48.26 0)
+			(at 68.58 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +4155,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 55.88 90)
+		(at 27.94 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4387,7 +4164,7 @@
 		(fields_autoplaced yes)
 		(uuid "4eabdbcd-d15f-44d1-861f-3d4ace75a682")
 		(property "Reference" "#PWR013"
-			(at 110.49 55.88 0)
+			(at 34.29 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,7 +4173,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 55.8799 90)
+			(at 31.75 181.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,7 +4182,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 55.88 0)
+			(at 27.94 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4414,7 +4191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 55.88 0)
+			(at 27.94 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,7 +4200,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 55.88 0)
+			(at 27.94 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,6 +4215,379 @@
 			(project ""
 				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:1311610030140")
+		(at 199.39 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4eff42ab-4145-4d19-8194-f358ffd537e4")
+		(property "Reference" "D7"
+			(at 211.2011 33.02 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1311610030140"
+			(at 199.39 64.77 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:1311610030140"
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WL-ICLED Integrated Controller within LED, SMT, Chip LED 1616 Dual, 6mA"
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "1311610030140"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Category" "IC LEDs"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Match Code" "WL-ICLED"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1Description" "Website Link"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" "https://www.we-online.com/redexpert/article/1311610030140?ad"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2Description" "Datasheet Link"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" "https://www.we-online.com/redexpert/spec/1311610030140?ad"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mount" "Surface Mount"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Min Operating Temperature" "-40°C"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Max Operating Temperature" "85°C"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "Tape and Reel"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Case/Size Code" "Chip LED 1616 Dual"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Length" "1.6mm"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Width" "1.6mm"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9mm"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dominant Wavelength (Blue)" "470nm"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dominant Wavelength (Green)" "525nm"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dominant Wavelength (Red)" "625nm"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Emitting Color" "Green & Blue & Red"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Frequency of the PWM" "20kHz"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "IC Output Current" "6mA"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Luminous Intensity (Blue)" "50mcd"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Luminous Intensity (Green)" "120mcd"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Luminous Intensity (Red)" "80mcd"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Peak Wavelength (Blue)" "465nm"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Peak Wavelength (Green)" "520nm"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Peak Wavelength (Red)" "630nm"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Viewing Angle" "120°"
+			(at 198.882 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cea95f1-3e36-4c61-b842-f782ff1e2aad")
+		)
+		(pin "3"
+			(uuid "42339396-8459-4fe2-ad31-701773b76e3c")
+		)
+		(pin "5"
+			(uuid "ecd4589f-13f5-4761-a3ae-800e335e963e")
+		)
+		(pin "4"
+			(uuid "11717713-341f-4d4b-92b9-3c2b950f511d")
+		)
+		(pin "2"
+			(uuid "603980a2-6861-452f-982c-1435810c5e0d")
+		)
+		(pin "6"
+			(uuid "bb42f722-4194-4bbe-88af-847e34c00535")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -4512,7 +4662,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 73.66 85.09 270)
+		(at 74.93 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4521,7 +4671,7 @@
 		(fields_autoplaced yes)
 		(uuid "53808406-ece2-4c5f-9ed1-a86b7bc14faa")
 		(property "Reference" "C7"
-			(at 73.66 77.47 90)
+			(at 74.93 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,7 +4679,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 73.66 80.01 90)
+			(at 74.93 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,7 +4687,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 69.85 86.0552 0)
+			(at 71.12 41.6052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4546,7 +4696,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 85.09 0)
+			(at 74.93 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,7 +4705,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 73.66 85.09 0)
+			(at 74.93 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,8 +4729,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 217.17 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5685df47-ff4e-485e-99b3-002a064a6b5f")
+		(property "Reference" "#PWR052"
+			(at 217.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e3809e1-adc3-4ebd-82fb-6c881b8376e9")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 135.89 48.26 0)
+		(at 59.69 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4589,7 +4805,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c106b0e-3f39-4d0c-ab6d-e0f277bb3f77")
 		(property "Reference" "R5"
-			(at 138.43 46.9899 0)
+			(at 62.23 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,7 +4814,7 @@
 			)
 		)
 		(property "Value" "51k"
-			(at 138.43 49.5299 0)
+			(at 62.23 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4823,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 134.112 48.26 90)
+			(at 57.912 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4832,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 48.26 0)
+			(at 59.69 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +4841,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 48.26 0)
+			(at 59.69 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,8 +4865,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 143.51 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e60dc36-9059-49d9-a828-d4eda9355671")
+		(property "Reference" "#PWR048"
+			(at 143.51 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24c022f8-da84-4cea-83ac-e8e8e2c62bb2")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 135.89 38.1 0)
+		(at 59.69 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4659,7 +4941,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d46aae3-0ba6-4d96-8791-a585084e0d0d")
 		(property "Reference" "R6"
-			(at 138.43 36.8299 0)
+			(at 62.23 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +4950,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 138.43 39.3699 0)
+			(at 62.23 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,7 +4959,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 134.112 38.1 90)
+			(at 57.912 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4686,7 +4968,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 38.1 0)
+			(at 59.69 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,7 +4977,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 38.1 0)
+			(at 59.69 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,6 +4995,72 @@
 			(project "NRF54LM20A"
 				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.27 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70d0c13a-ac0b-4a79-860e-57a461193747")
+		(property "Reference" "#PWR054"
+			(at 255.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 255.27 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4f04ddc-abb9-42c8-a574-42d86c573bdb")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4786,8 +5134,381 @@
 		)
 	)
 	(symbol
+		(lib_id "New_Library:1311610030140")
+		(at 237.49 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d5cb3a7-6306-4ca7-a4e7-955ebdb68fe4")
+		(property "Reference" "D8"
+			(at 249.3011 33.02 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1311610030140"
+			(at 237.49 64.77 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:1311610030140"
+			(at 237.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WL-ICLED Integrated Controller within LED, SMT, Chip LED 1616 Dual, 6mA"
+			(at 237.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "1311610030140"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Category" "IC LEDs"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Match Code" "WL-ICLED"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1Description" "Website Link"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" "https://www.we-online.com/redexpert/article/1311610030140?ad"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2Description" "Datasheet Link"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" "https://www.we-online.com/redexpert/spec/1311610030140?ad"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mount" "Surface Mount"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Min Operating Temperature" "-40°C"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Max Operating Temperature" "85°C"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "Tape and Reel"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Case/Size Code" "Chip LED 1616 Dual"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Length" "1.6mm"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Width" "1.6mm"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9mm"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dominant Wavelength (Blue)" "470nm"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dominant Wavelength (Green)" "525nm"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dominant Wavelength (Red)" "625nm"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Emitting Color" "Green & Blue & Red"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Frequency of the PWM" "20kHz"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "IC Output Current" "6mA"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Luminous Intensity (Blue)" "50mcd"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Luminous Intensity (Green)" "120mcd"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Luminous Intensity (Red)" "80mcd"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Peak Wavelength (Blue)" "465nm"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Peak Wavelength (Green)" "520nm"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Peak Wavelength (Red)" "630nm"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Viewing Angle" "120°"
+			(at 236.982 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7bd7510-e3d0-41ca-b55f-eda24d8ca155")
+		)
+		(pin "3"
+			(uuid "b5d37587-fe57-4dcb-992b-6fa74ea7c717")
+		)
+		(pin "5"
+			(uuid "daf9a4f8-fce4-4394-9590-8ae5d8c36e81")
+		)
+		(pin "4"
+			(uuid "f4731a65-1074-4ec5-8377-b70453b0ae57")
+		)
+		(pin "2"
+			(uuid "e5bda447-8566-4373-a05c-4f2412ea5c65")
+		)
+		(pin "6"
+			(uuid "338a9c5a-1d2f-4e4f-8014-b5bad295af04")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "New_Library:NMH1000T1")
-		(at 87.63 133.35 0)
+		(at 107.95 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4796,7 +5517,7 @@
 		(fields_autoplaced yes)
 		(uuid "940efe25-505a-4faa-9bf3-93254da42ed9")
 		(property "Reference" "IC3"
-			(at 104.14 125.73 0)
+			(at 124.46 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4804,7 +5525,7 @@
 			)
 		)
 		(property "Value" "NMH1000T1"
-			(at 104.14 128.27 0)
+			(at 124.46 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4812,7 +5533,7 @@
 			)
 		)
 		(property "Footprint" "Library:NMH1000T1"
-			(at 116.84 228.27 0)
+			(at 137.16 261.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4822,7 +5543,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/NMH1000.pdf"
-			(at 116.84 328.27 0)
+			(at 137.16 361.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +5553,7 @@
 			)
 		)
 		(property "Description" "Ultra-Low Power and Low-Voltage Magnetic Switch"
-			(at 87.63 133.35 0)
+			(at 107.95 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,7 +5562,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 116.84 528.27 0)
+			(at 137.16 561.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +5572,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 116.84 628.27 0)
+			(at 137.16 661.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4861,7 +5582,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 116.84 728.27 0)
+			(at 137.16 761.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +5592,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 116.84 828.27 0)
+			(at 137.16 861.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4881,7 +5602,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "NMH1000T1"
-			(at 116.84 928.27 0)
+			(at 137.16 961.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4918,34 +5639,36 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 66.04 113.03 0)
+		(lib_id "New_Library:1311610030140")
+		(at 125.73 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a509b2a8-e596-4c2e-9d7b-d5dfdf11ab5c")
-		(property "Reference" "#PWR021"
-			(at 66.04 119.38 0)
+		(uuid "9d69dcd3-09b3-4558-a808-5f35de67730e")
+		(property "Reference" "D5"
+			(at 137.5411 33.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.8288 1.8288)
 				)
+				(justify left)
+			)
+		)
+		(property "Value" "1311610030140"
+			(at 125.73 64.77 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 66.04 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 113.03 0)
+		(property "Footprint" "Library:1311610030140"
+			(at 125.73 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4954,7 +5677,378 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 113.03 0)
+			(at 125.73 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WL-ICLED Integrated Controller within LED, SMT, Chip LED 1616 Dual, 6mA"
+			(at 125.73 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "1311610030140"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Category" "IC LEDs"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Match Code" "WL-ICLED"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1Description" "Website Link"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" "https://www.we-online.com/redexpert/article/1311610030140?ad"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2Description" "Datasheet Link"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" "https://www.we-online.com/redexpert/spec/1311610030140?ad"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mount" "Surface Mount"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Min Operating Temperature" "-40°C"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Max Operating Temperature" "85°C"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "Tape and Reel"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Case/Size Code" "Chip LED 1616 Dual"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Length" "1.6mm"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Width" "1.6mm"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9mm"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dominant Wavelength (Blue)" "470nm"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dominant Wavelength (Green)" "525nm"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dominant Wavelength (Red)" "625nm"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Emitting Color" "Green & Blue & Red"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Frequency of the PWM" "20kHz"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "IC Output Current" "6mA"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Luminous Intensity (Blue)" "50mcd"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Luminous Intensity (Green)" "120mcd"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Luminous Intensity (Red)" "80mcd"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Peak Wavelength (Blue)" "465nm"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Peak Wavelength (Green)" "520nm"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Peak Wavelength (Red)" "630nm"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Viewing Angle" "120°"
+			(at 125.222 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d309aa9-7636-4a7d-bdb8-99f31e4a0443")
+		)
+		(pin "3"
+			(uuid "ce461b4f-e634-42a8-8241-c35ca9933201")
+		)
+		(pin "5"
+			(uuid "cb502750-bc7c-49c2-8bca-6ac7e101d57b")
+		)
+		(pin "4"
+			(uuid "14cb68a6-6e2b-4719-94eb-35ec50d97286")
+		)
+		(pin "2"
+			(uuid "83062097-4f03-4e02-9396-c9c478ad47b6")
+		)
+		(pin "6"
+			(uuid "2d8d8b34-1766-4727-adea-e7d8b2dd44c1")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4c63ae4-c34c-4c37-9ae9-3faabc23add3")
+		(property "Reference" "#PWR046"
+			(at 106.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4963,7 +6057,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 113.03 0)
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a885c51-9740-4044-a990-96eb6c3dc474")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a509b2a8-e596-4c2e-9d7b-d5dfdf11ab5c")
+		(property "Reference" "#PWR021"
+			(at 67.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +6211,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 135.89 33.02 0)
+		(at 59.69 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5060,7 +6220,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4b83689-a13b-4eaa-9ec1-ce8fd5be5045")
 		(property "Reference" "#PWR030"
-			(at 135.89 36.83 0)
+			(at 59.69 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,7 +6229,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 135.89 27.94 0)
+			(at 59.69 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,7 +6237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 33.02 0)
+			(at 59.69 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5086,7 +6246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 33.02 0)
+			(at 59.69 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5095,7 +6255,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 135.89 33.02 0)
+			(at 59.69 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +6347,7 @@
 	)
 	(symbol
 		(lib_id "New_Library:IM67D128BV01")
-		(at 99.06 64.77 0)
+		(at 22.86 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5196,7 +6356,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5953f90-ec12-429d-b9ad-767a42acb2c5")
 		(property "Reference" "U4"
-			(at 95.885 45.72 0)
+			(at 19.685 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5204,7 +6364,7 @@
 			)
 		)
 		(property "Value" "IM67D128BV01"
-			(at 95.885 48.26 0)
+			(at 19.685 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,7 +6372,7 @@
 			)
 		)
 		(property "Footprint" "Library:PG-TLGA-5-8"
-			(at 99.06 64.77 0)
+			(at 22.86 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5221,7 +6381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 64.77 0)
+			(at 22.86 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,7 +6390,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 64.77 0)
+			(at 22.86 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5264,7 +6424,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 139.7 0)
+		(at 105.41 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5273,7 +6433,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb3fd4d8-ba0e-4026-b0df-1b7473677d14")
 		(property "Reference" "#PWR038"
-			(at 85.09 146.05 0)
+			(at 105.41 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,7 +6442,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 144.78 0)
+			(at 105.41 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,7 +6450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 139.7 0)
+			(at 105.41 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,7 +6459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 139.7 0)
+			(at 105.41 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,7 +6468,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 139.7 0)
+			(at 105.41 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5330,7 +6490,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 85.09 90)
+		(at 80.01 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5339,7 +6499,7 @@
 		(fields_autoplaced yes)
 		(uuid "bced90a3-bd05-4662-bb23-c2d3cace9aa3")
 		(property "Reference" "#PWR018"
-			(at 85.09 85.09 0)
+			(at 86.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +6508,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 85.0899 90)
+			(at 83.82 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5357,7 +6517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 85.09 0)
+			(at 80.01 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5366,7 +6526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 85.09 0)
+			(at 80.01 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,7 +6535,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 85.09 0)
+			(at 80.01 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,17 +6556,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 105.41 115.57 0)
+		(lib_id "power:+5V")
+		(at 172.72 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c4fef31f-e3a3-403c-b082-286930fcd2c2")
-		(property "Reference" "#PWR017"
-			(at 105.41 121.92 0)
+		(uuid "c338d714-8a58-4811-a2a7-f355eee88220")
+		(property "Reference" "#PWR049"
+			(at 172.72 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,8 +6574,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 105.41 120.65 0)
+		(property "Value" "+5V"
+			(at 172.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5423,7 +6583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 115.57 0)
+			(at 172.72 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +6592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 115.57 0)
+			(at 172.72 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,8 +6600,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 115.57 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 172.72 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,29 +6610,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "bdba4e99-f480-400b-96b4-ac78b51bcc93")
+			(uuid "09facf75-6b98-4eff-969c-778fdd0e73c3")
 		)
 		(instances
 			(project "NRF54LM20A"
 				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
-					(reference "#PWR017")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 83.82 132.08 0)
+		(lib_id "power:+5V")
+		(at 99.06 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d7487d68-162d-410d-8af9-bd4be05353ee")
-		(property "Reference" "#PWR040"
-			(at 83.82 135.89 0)
+		(uuid "d5a19d4f-49fc-4716-a6cc-d92c16768c59")
+		(property "Reference" "#PWR045"
+			(at 99.06 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,8 +6640,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V8"
-			(at 83.82 127 0)
+		(property "Value" "+5V"
+			(at 99.06 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,7 +6649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 132.08 0)
+			(at 99.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5498,7 +6658,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 132.08 0)
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e63bf9e9-1461-442e-b66f-a303e0ddc2f4")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 104.14 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7487d68-162d-410d-8af9-bd4be05353ee")
+		(property "Reference" "#PWR040"
+			(at 104.14 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 104.14 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +6733,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 83.82 132.08 0)
+			(at 104.14 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,8 +6754,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 209.55 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7db335a-cbc0-41c4-ac89-7a863dac43c4")
+		(property "Reference" "#PWR051"
+			(at 209.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 209.55 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 209.55 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63e701f5-390f-4b5f-aaf8-89a26883e326")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Logic_LevelTranslator:TXS0102DQE")
-		(at 66.04 99.06 0)
+		(at 67.31 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5538,7 +6830,7 @@
 		(fields_autoplaced yes)
 		(uuid "e234cd22-fb80-43e8-85a4-146bc33bf0ad")
 		(property "Reference" "U5"
-			(at 68.1833 111.76 0)
+			(at 69.4533 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5547,7 +6839,7 @@
 			)
 		)
 		(property "Value" "TXS0102DQE"
-			(at 68.1833 114.3 0)
+			(at 69.4533 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,7 +6848,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:X2SON-8_1.4x1mm_P0.35mm"
-			(at 66.04 113.03 0)
+			(at 67.31 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +6857,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/txs0102"
-			(at 66.04 99.568 0)
+			(at 67.31 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,7 +6866,7 @@
 			)
 		)
 		(property "Description" "2-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application, X2SON-8"
-			(at 66.04 99.06 0)
+			(at 67.31 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5616,35 +6908,36 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 102.87 60.96 270)
+		(lib_id "New_Library:1311610030140")
+		(at 162.56 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e9e485f7-2228-49a7-9664-a0d321b14b24")
-		(property "Reference" "#PWR014"
-			(at 99.06 60.96 0)
+		(uuid "e60f32d4-51cd-4530-89b7-d6125719b88c")
+		(property "Reference" "D6"
+			(at 174.3711 33.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 106.68 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 1.8288 1.8288)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 102.87 60.96 0)
+		(property "Value" "1311610030140"
+			(at 162.56 64.77 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:1311610030140"
+			(at 162.56 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,7 +6946,379 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 60.96 0)
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WL-ICLED Integrated Controller within LED, SMT, Chip LED 1616 Dual, 6mA"
+			(at 162.56 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "1311610030140"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Category" "IC LEDs"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Match Code" "WL-ICLED"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1Description" "Website Link"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" "https://www.we-online.com/redexpert/article/1311610030140?ad"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2Description" "Datasheet Link"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" "https://www.we-online.com/redexpert/spec/1311610030140?ad"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mount" "Surface Mount"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Min Operating Temperature" "-40°C"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Max Operating Temperature" "85°C"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "Tape and Reel"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Case/Size Code" "Chip LED 1616 Dual"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Length" "1.6mm"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Width" "1.6mm"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9mm"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dominant Wavelength (Blue)" "470nm"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dominant Wavelength (Green)" "525nm"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dominant Wavelength (Red)" "625nm"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Emitting Color" "Green & Blue & Red"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Frequency of the PWM" "20kHz"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "IC Output Current" "6mA"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Luminous Intensity (Blue)" "50mcd"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Luminous Intensity (Green)" "120mcd"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Luminous Intensity (Red)" "80mcd"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Peak Wavelength (Blue)" "465nm"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Peak Wavelength (Green)" "520nm"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Peak Wavelength (Red)" "630nm"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Viewing Angle" "120°"
+			(at 162.052 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed2cc37a-d592-48d7-91ce-67b858df2e4d")
+		)
+		(pin "3"
+			(uuid "3442cfe7-962e-4e04-874d-52354779ce05")
+		)
+		(pin "5"
+			(uuid "e63b2a7a-f229-4655-94cb-133f30b10500")
+		)
+		(pin "4"
+			(uuid "5d9eab71-f216-46c8-adf0-5c5736ef96f8")
+		)
+		(pin "2"
+			(uuid "225a2466-4832-4ab4-af31-3818a81e5aa7")
+		)
+		(pin "6"
+			(uuid "13332400-20e3-40a9-8c6a-36d9bb0026e7")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 26.67 186.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9e485f7-2228-49a7-9664-a0d321b14b24")
+		(property "Reference" "#PWR014"
+			(at 22.86 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 30.48 186.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,7 +7327,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 102.87 60.96 0)
+			(at 26.67 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,6 +7342,511 @@
 			(project ""
 				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:1311610030140")
+		(at 88.9 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecdf37cb-dd0c-4048-88ab-edf06f1bde02")
+		(property "Reference" "D4"
+			(at 100.7111 33.02 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1311610030140"
+			(at 88.9 64.77 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:1311610030140"
+			(at 88.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "WL-ICLED Integrated Controller within LED, SMT, Chip LED 1616 Dual, 6mA"
+			(at 88.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "1311610030140"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Category" "IC LEDs"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Match Code" "WL-ICLED"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1Description" "Website Link"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" "https://www.we-online.com/redexpert/article/1311610030140?ad"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2Description" "Datasheet Link"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" "https://www.we-online.com/redexpert/spec/1311610030140?ad"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mount" "Surface Mount"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Min Operating Temperature" "-40°C"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Max Operating Temperature" "85°C"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Packaging" "Tape and Reel"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Case/Size Code" "Chip LED 1616 Dual"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Length" "1.6mm"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Width" "1.6mm"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.9mm"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dominant Wavelength (Blue)" "470nm"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dominant Wavelength (Green)" "525nm"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dominant Wavelength (Red)" "625nm"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Emitting Color" "Green & Blue & Red"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Frequency of the PWM" "20kHz"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "IC Output Current" "6mA"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Luminous Intensity (Blue)" "50mcd"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Luminous Intensity (Green)" "120mcd"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Luminous Intensity (Red)" "80mcd"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Peak Wavelength (Blue)" "465nm"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Peak Wavelength (Green)" "520nm"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Peak Wavelength (Red)" "630nm"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Viewing Angle" "120°"
+			(at 88.392 33.782 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9eb7575-21ac-4579-9af9-219b06366c92")
+		)
+		(pin "3"
+			(uuid "1343fb67-e95c-479a-a059-cc3764c8c8af")
+		)
+		(pin "5"
+			(uuid "a4aa152d-2c2c-44e9-b401-be31ce5563d1")
+		)
+		(pin "4"
+			(uuid "bb3d2880-310f-4a40-9298-7af39666b644")
+		)
+		(pin "2"
+			(uuid "2bd7da32-7465-4e52-ba69-0943a54512ca")
+		)
+		(pin "6"
+			(uuid "bcef97e3-ffd4-4eb5-8848-9e023261b4e6")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f418d2c7-452b-44a6-ba6b-3f6c952fbbbd")
+		(property "Reference" "#PWR050"
+			(at 180.34 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8424ecdb-b430-462d-9062-6b27fe9f392f")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 135.89 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb1483cc-fe46-4a57-ae25-70a74db5f11e")
+		(property "Reference" "#PWR047"
+			(at 135.89 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 135.89 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 135.89 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72d56c9d-4ce6-4f2c-9110-29b3f083dcb2")
+		)
+		(instances
+			(project "NRF54LM20A"
+				(path "/a22e6eb7-bd70-4e22-bc03-a0cb284c787e/9311bce5-b6b9-499c-b401-cf55b3154c79"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
